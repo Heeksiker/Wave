@@ -1,0 +1,35 @@
+.chat-list {
+    width: 300px;
+    background-color: #36393f;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-list h2 {
+    margin-top: 0;
+  }
+  
+  .chat-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .chat-list li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+  }
+  
+  .chat-list li:hover {
+    background-color: #3a3d42;
+  }
+  
+  .chat-name {
+    font-weight: bold;
+  }
+  
+  .chat-last-message {
+    color: #ccc;
+  }

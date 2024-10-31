@@ -1,0 +1,35 @@
+.spotify-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .spotify-player img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .spotify-player h2 {
+    margin-bottom: 20px;
+  }
+  
+  .spotify-player button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4d4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .spotify-player button:hover {
+    background-color: #555;
+  }
